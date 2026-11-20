@@ -5,6 +5,7 @@ public class main {
 
         bird1.color = "Black";
         bird1.type = "Crow";
+        bird1.describe();
     }
 
 }
@@ -22,4 +23,8 @@ class Bird{
         System.out.println("The bird is flying!");
     }
 
+    public void describe() {
+    System.out.println("This bird is a " + color + " " + type + ".");
+
+}
 }
